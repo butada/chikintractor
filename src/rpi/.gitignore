@@ -1,0 +1,5 @@
+*.pyc
+secret.py
+*.log
+*.jpg
+
