@@ -36,7 +36,7 @@ gpio mode 1 out
 gpio write 1 1
 
 #echo '### sleep 300 ###'
-sleep 120
+#sleep 120
 #sleep 5
 
 date
