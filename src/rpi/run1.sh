@@ -24,6 +24,8 @@ sleep 5
 #sleep 60
 ./wait_networkconnection.pl
 
+git pull
+
 echo '### raspistill ###'
 sudo raspistill -o test.jpg -q 10 -w 320 -h 240
 
