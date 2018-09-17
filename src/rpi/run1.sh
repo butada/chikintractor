@@ -27,7 +27,8 @@ sleep 5
 git pull
 
 echo '### raspistill ###'
-sudo raspistill -o test.jpg -q 10 -w 320 -h 240
+#sudo raspistill -o test.jpg -q 10 -w 320 -h 240
+sudo raspistill -o test.jpg
 
 echo '### camera ###'
 python camera.py
